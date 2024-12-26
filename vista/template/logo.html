@@ -1,0 +1,105 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista Voyages</title>
+    <!-- Link to Google Fonts for Poppins and Lora -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-color: #fde4ff;
+            font-family: 'Lora', serif; /* Change font to Lora for body */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            margin-top: -150px; /* Adjust the spacing from the top */
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 80%; /* Adjust width for proper alignment */
+            margin-top: 20px;
+        }
+
+        .mission-container, .vision-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align content to the left */
+        }
+
+        .mission-image, .vision-image {
+            width: 100px; /* Adjust the width of the images */
+            height: auto;
+            margin-bottom: 10px; /* Add spacing below the images */
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #333;
+            text-align: left; /* Align text to the left */
+            margin: 0; /* Remove extra margins */
+        }
+
+        .content {
+            margin-left: 20px; /* Add some space between the image and text */
+        }
+
+        .vision-container {
+            margin-left: 700px;
+        }
+
+        .points-list {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        /* Add Poppins font to headings */
+        h1, h2, h3, p strong {
+            font-family: 'Poppins', sans-serif; /* Change to Poppins for headings */
+        }
+    </style>
+</head>
+<body>
+    <img src="../static/images/vv.png" alt="Vista Voyages Logo" class="logo">
+
+    <!-- Mission and Vision Section -->
+    <div class="container">
+        <!-- Mission Section -->
+        <div class="mission-container">
+            <img src="../static/images/retina.png" alt="Mission" class="mission-image">
+            <div class="content">
+                <p><strong>Our Vision:</strong></p>
+                <ul class="points-list">
+                    <li>To redefine the future of travel by crafting personalized, seamless, and eco-conscious journeys for every traveler.</li>
+                    <li>To build a platform that fosters meaningful connections between users, services, and the environment, creating a holistic travel experience.</li>
+                    <li>To inspire sustainable exploration through innovative solutions, enriching travel while protecting the planet.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Vision Section -->
+        <div class="vision-container">
+            <img src="../static/images/vision.png" alt="Vision" class="vision-image">
+            <div class="content">
+                <p><strong>Our Mission:</strong></p>
+                <ul class="points-list">
+                    <li>To simplify travel by merging transportation, accommodation, and dining into one unified platform, delivering convenience at every step.</li>
+                    <li>To create empowering opportunities for drivers to earn rewards while offering travelers a diverse range of personalized travel options.</li>
+                    <li>To cultivate a responsible travel ecosystem that prioritizes sustainability and ensures a positive impact on both users and the world around us.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

@@ -21,4 +21,6 @@ urlpatterns = [
     path('renthome',views.renthome,name="renthome"),
     path('rentlog',views.rentlog,name="rentlog"),
     path('rentprofile',views.rentprofile,name="rentprofile"),
+    path('rentbooking',views.rentbooking,name="rentbooking"),
+    path('logo',views.logo,name="logo"),   
 ]

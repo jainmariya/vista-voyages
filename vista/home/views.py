@@ -213,3 +213,7 @@ def rentprofile(request):
         rp.Password=request.POST.get("password")
         rp.save()
     return render(request,'rentprofile.html',{'rp':rp})
+def rentbooking(request):
+    return render (request,"rentbooking.html")
+def logo(request):
+     return render(request,"logo.html")
